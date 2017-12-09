@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor", "UserActor\User
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor.Interfaces", "UserActor.Interfaces\UserActor.Interfaces.csproj", "{99A7DCF8-AE08-470F-9512-275C118F4D5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService.Domain", "ECommerce.CheckoutService.Domain\ECommerce.CheckoutService.Domain.csproj", "{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,22 @@ Global
 		{99A7DCF8-AE08-470F-9512-275C118F4D5B}.Release|Any CPU.ActiveCfg = Release|x64
 		{99A7DCF8-AE08-470F-9512-275C118F4D5B}.Release|x64.ActiveCfg = Release|x64
 		{99A7DCF8-AE08-470F-9512-275C118F4D5B}.Release|x64.Build.0 = Release|x64
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}.Release|x64.Build.0 = Release|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Debug|x64.Build.0 = Debug|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Release|x64.ActiveCfg = Release|Any CPU
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

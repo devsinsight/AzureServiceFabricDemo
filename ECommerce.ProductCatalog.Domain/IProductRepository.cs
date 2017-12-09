@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ECommerce.ProductCatalog.Domain
@@ -8,5 +9,7 @@ namespace ECommerce.ProductCatalog.Domain
         Task<IEnumerable<Product>> GetAllProducts();
 
         Task AddProduct(Product product);
+
+        Task<Product> GetProduct(Guid productId);
     }
 }
