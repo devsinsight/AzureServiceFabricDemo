@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ECommerce", "ECommerce\ECommerce.sfproj", "{FC3B50F7-39C5-4780-9ABB-7FAFB900A449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{771CF31B-D747-4315-BC81-D89868CF7BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{771CF31B-D747-4315-BC81-D89868CF7BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{2A4E16AF-37A9-4216-868A-1D658D24F790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{2A4E16AF-37A9-4216-868A-1D658D24F790}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog.Domain", "ECommerce.ProductCatalog.Domain\ECommerce.ProductCatalog.Domain.csproj", "{55F78236-E9C2-47E3-B3C5-184512EB4522}"
 EndProject
@@ -15,9 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor", "UserActor\User
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor.Interfaces", "UserActor.Interfaces\UserActor.Interfaces.csproj", "{99A7DCF8-AE08-470F-9512-275C118F4D5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{173C34BD-3AB2-46CC-B00F-35430BE6A3C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService.Domain", "ECommerce.CheckoutService.Domain\ECommerce.CheckoutService.Domain.csproj", "{9BCCBD71-E794-4224-AD70-F43A43DEAB6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CheckoutService", "CheckoutService", "{099D15A4-31F0-4CF1-AD43-83D649986188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCatalog", "ProductCatalog", "{9ED59FFD-78D1-4E63-95E1-7C9600545DA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserActors", "UserActors", "{EDDDF943-1B0B-454B-B8CC-59728FD5F07B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +96,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{771CF31B-D747-4315-BC81-D89868CF7BA9} = {9ED59FFD-78D1-4E63-95E1-7C9600545DA9}
+		{55F78236-E9C2-47E3-B3C5-184512EB4522} = {9ED59FFD-78D1-4E63-95E1-7C9600545DA9}
+		{BEBB5329-8BC9-470A-9CD7-5F3080CBA2E6} = {EDDDF943-1B0B-454B-B8CC-59728FD5F07B}
+		{99A7DCF8-AE08-470F-9512-275C118F4D5B} = {EDDDF943-1B0B-454B-B8CC-59728FD5F07B}
+		{173C34BD-3AB2-46CC-B00F-35430BE6A3C5} = {099D15A4-31F0-4CF1-AD43-83D649986188}
+		{9BCCBD71-E794-4224-AD70-F43A43DEAB6C} = {099D15A4-31F0-4CF1-AD43-83D649986188}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8C10555-4731-4477-846C-EE8BA653E70C}
